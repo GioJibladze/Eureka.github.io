@@ -1,0 +1,996 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #ffffff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    cursor: pointer;
+}
+
+.bg-body-tertiary{
+    padding: 12px, 36px, 12px, 36px !important;
+    max-width: 100% !important; 
+    background-color: #ffffff !important;
+}
+
+ .navbar-brand{
+    margin-left: 100px;
+} 
+
+.nav-link{
+    font-size: 15px;
+    line-height: 24px;
+    color: rgba(17, 17, 17, 1);
+    font-weight: 500;
+    font-family: Helvetica;
+}
+
+.nav-link:hover{
+   text-decoration: underline;
+}
+
+.nav-item{
+    padding: 0px 12px;
+}
+
+.form-control{
+    height: 40px;
+    width: 180px;
+    border-radius: 100px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carts{
+    margin: 0px 7px;
+    font-size: 18px;
+}
+
+.cartss{
+    margin: 0px 7px;
+    font-size: 20px;
+}
+
+.bi-search{
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+}
+
+.form-control{
+    background-color: #ffffff !important;
+    color: #CCCCCC !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    font-weight: 500 !important;
+    font-family: Helvetica;
+}
+
+.container-input {
+    position: relative;
+}
+  
+.chemiinput {
+    width: 180px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px solid #CCCCCC !important;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 1;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding: 20px 50px;
+    color: rgba(204, 204, 204, 1);
+}
+  
+.container-input svg {
+   position: relative;
+   right: 170px;
+   cursor: pointer;
+}
+  
+.heading{
+    height: 58px;
+    padding:9px, 0px, 4px, 0px;
+    max-width: 100%; 
+    background-color: rgba(245, 245, 245, 1);
+    transition: 0.3s all;
+}
+
+.p1{
+   margin: auto;
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 16px;
+   text-align: center;
+   position: relative;
+   top: 8px;
+   color: rgba(17, 17, 17, 1);
+   font-family: Helvetica;
+}
+
+.p2{
+   font-size: 11px;
+   font-weight: 500;
+   line-height: 24px;
+   text-align: center;
+   position: relative;
+   top: 8px;
+   color: rgba(17, 17, 17, 1);
+   text-decoration: underline;
+   cursor: pointer;
+   font-family: Helvetica;
+}
+
+header{
+    width: 1416px;
+    height: 845px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.box1{
+    width: 1416px;
+    height: 705px;
+    background-image: url(https://static.zara.net/photos///2023/I/0/1/p/0858/451/250/17/w/1554/0858451250_9_2_1.jpg?ts=1701278904968);
+    background-size: cover;
+    cursor: pointer;
+    max-width: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.p3{
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    max-width: 1082px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    top: 40px;
+    font-family: Helvetica;
+}
+
+@media (max-width:1040px) {
+    .p3{
+        font-size: 45px;
+    }
+    
+}
+
+@media (max-width:422px) {
+    .p3{
+        font-size: 35px;
+    }
+    
+}
+
+.p3{
+   color:  #000000;
+   text-shadow: 1px 3px #ffffff;
+   position: relative;
+   top: 500px;
+}
+
+.box2{
+    height: 140px;
+    width: 1416px;
+    max-width: 100%;
+}
+
+.p4{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(17, 17, 17, 1);
+    max-width: 820px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    font-family: Helvetica;
+}
+
+@media (max-width:729px) {
+    .p4{
+        font-size: 13px;
+    }
+    
+}
+
+.blck{
+    height: 32px;
+    width: 121px;
+    border-radius: 30px;
+    padding: 4px 15px 4px 15px;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid black;
+    color: #FFFFFF;
+    font-size: 14px; 
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50px;   
+}
+
+.blck:hover{
+    background-color: rgb(255, 255, 255);
+    color: #111111;
+}
+
+.visit:hover{
+    background-color: rgb(255, 255, 255);
+    color: #111111;
+    border: 1px solid black;
+}
+
+.visit1:hover{
+    background-color: rgb(255, 255, 255);
+    color: #111111;
+    border: 1px solid black;
+}
+
+.gifts:hover{
+    background-color: rgb(255, 255, 255);
+    color: #111111;
+    border: 1px solid black;
+}
+
+.shopmens:hover{
+    background-color: rgb(255, 255, 255);
+    color: #111111;
+    border: 1px solid black;
+}
+
+.shopwomens:hover{
+    background-color: rgb(255, 255, 255);
+    color: #111111;
+    border: 1px solid black;
+}
+
+.shopkids:hover{
+    background-color: rgb(255, 255, 255);
+    color: #111111;
+    border: 1px solid black;
+}
+
+.mens:hover{
+    background-color: #111111;
+    color: rgb(255, 255, 255);
+}
+
+.womens:hover{
+    background-color: #111111;
+    color: rgb(255, 255, 255);
+}
+
+.kids:hover{
+    background-color: #111111;
+    color: rgb(255, 255, 255);
+}
+
+
+.container1{
+    width: 1428px;
+    margin: auto;
+    margin-top: 28px;
+    max-width: 100%;
+}
+
+@media (max-width:410px) {
+    .container1{
+        margin-top: 70px;
+    }
+    
+}
+
+.p5{
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 500;
+    color: rgba(17, 17, 17, 1);
+    max-width: 820px;
+    font-family: Helvetica;
+}
+
+.flexbox1{
+    width: 1428px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+
+
+.row1{
+    width: 50%;
+    height: 685px;
+    padding-right: 6px;
+    max-width: 100%;
+    margin: 5px 0px;
+}
+
+.row2{
+    width: 50%;
+    height: 685px;
+    padding-left: 6px;
+    max-width: 100%;
+    margin: 5px 0px;
+}
+
+@media (max-width:1150px) {
+    .row1{
+        width: 100%;
+        padding-right: 0px;
+    }
+
+    .row2{
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+}
+
+.card1{
+    height: 685px;
+    background-image: url(https://static.zara.net/photos///2024/V/1/2/p/2103/320/800/2/w/607/2103320800_15_1_1.jpg?ts=1701174201400);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+
+.card2{
+    height: 685px;
+    background-image: url(https://static.zara.net/photos///2024/V/1/2/p/2319/220/800/2/w/563/2319220800_6_1_1.jpg?ts=1701348623548);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+ .card1txt{
+    height: 117px;
+    max-width: 100%;
+    margin-left: 48px;
+} 
+
+.p6{
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(17, 17, 17, 1);
+    font-family: Helvetica;
+    max-width: 100%;
+    position: relative;
+    top: 523px;
+    line-break: break-all;
+    width: 440px;
+}
+
+@media (max-width:590px) {
+    .p6{
+        font-size: 17px;
+
+    }
+
+    .p7{
+        font-size: 17px;
+
+    }
+    
+}
+
+.visit{
+    height: 39px;
+    width: 208.328125px;
+    border-radius: 30px;
+    padding: 7px 24px 9px 22px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    background-color: rgba(17, 17, 17, 1);
+    position: relative;
+    top: 543px; 
+    font-family: Helvetica;
+}
+
+.card2txt{
+    height: 93px;
+    max-width: 100%;
+    margin-left: 48px;
+}
+
+.p7{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(17, 17, 17, 1);
+    font-family: Helvetica;
+    position: relative;
+    top: 543px;
+}
+
+.visit1{
+    height: 39px;
+    width: 80.375px;
+    left: 0px;
+    top: 563px; 
+    border-radius: 30px;
+    padding: 7px 22px 9px 22px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    background-color: rgba(17, 17, 17, 1);
+    position: relative;  
+    font-family: Helvetica;
+}
+
+.container2{
+    height: 850px;
+    width: 1428px;
+    margin: auto;
+    margin-top: 28px;
+    max-width: 100%;
+}
+
+.card3{
+    height: 688px;
+    width: 1428px;
+    max-width: 100%;
+    background-image: url(https://static.zara.net/photos///2023/I/1/2/p/2016/220/709/2/w/563/2016220709_2_3_1.jpg?ts=1694097200587);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+}
+
+.card3-info{
+    position: relative;
+    top: 705px;
+}
+
+.p9{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(17, 17, 17, 1);
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.gifts{
+    height: 39px;
+    width: 150.59375px;
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    padding: 7px 23px 9px 22px;
+    position: relative;
+    top: 40px;
+    background-color: rgba(17, 17, 17, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.container3{
+    width: 1428px;
+    margin: auto;
+    max-width: 100%;
+}
+
+@media (max-width:1110px) {
+    .container3{
+        position: relative;
+        top: 60px;
+    }
+
+    footer{
+        position: relative;
+        top: 60px;
+    }
+    
+}
+
+@media (max-width:1110px) {
+    .container4{
+        position: relative;
+        top: 60px;
+    }
+
+    footer{
+        position: relative;
+        top: 120px;
+    }
+
+    .container5{
+        position: relative;
+        top: 60px;
+    }
+    
+}
+
+@media (max-width:515px) {
+    .container3{
+        position: relative;
+        top: 120px;
+    }
+    
+}
+
+@media (max-width:515px) {
+    .container4{
+        position: relative;
+        top: 120px;
+    }
+    
+}
+
+@media (max-width:515px) {
+    .container5{
+        position: relative;
+        top: 120px;
+    }
+    
+}
+
+.p10{
+    font-family: Helvetica;
+    color: rgba(17, 17, 17, 1);
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 500;
+    display: block;
+    margin-top: 40px;
+}
+
+.flexbox2{
+   width: 1428px;
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 100%;
+}
+
+.row3{
+    width: 33.333333%;
+    height: 700px;
+    padding-right: 6px;
+    max-width: 100%;
+}
+
+.row4{
+    width: 33.333333%;
+    height: 700px;
+    padding:0px 6px;
+    max-width: 100%;
+}
+
+.row5{
+    width: 33.333333%;
+    height: 700px;
+    padding-left:6px;
+    max-width: 100%;
+}
+
+ @media (max-width:950px) {
+    .row3{
+        width: 100%;
+        padding-right: 0px;
+        margin: 5px 0px;
+    }
+
+    .row4{
+        width: 100%;
+        padding: 0px 0px;
+        margin: 5px 0px;
+    }
+
+    .row5{
+        width: 100%;
+        padding-left:0px;
+        margin: 5px 0px;
+    }
+    
+} 
+
+.card4{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://static.zara.net/photos///2023/I/0/2/p/0993/403/600/2/w/607/0993403600_2_1_1.jpg?ts=1701248565476);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    margin: auto;
+}
+
+.card5{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://static.zara.net/photos///2023/I/0/1/p/3427/787/800/12/w/607/3427787800_2_4_1.jpg?ts=1700667243510);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
+
+.card6{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://static.zara.net/photos///2024/V/0/3/p/5644/554/400/402/w/725/5644554400_15_1_1.jpg?ts=1701103364364);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
+
+.shopmens{
+    height: 39px;
+    width: 127px;
+    top: 612px;
+    left: 48px;
+    border-radius: 30px;
+    padding:7px, 23px, 9px, 22px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    background-color: rgba(17, 17, 17, 1);
+    position: relative;
+    font-family: Helvetica;
+}
+
+.shopwomens{
+    height: 39px;
+    width: 150px;
+    top: 612px;
+    left: 48px;
+    border-radius: 30px;
+    padding:7px, 23px, 9px, 22px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    background-color: rgba(17, 17, 17, 1);
+    position: relative;
+    font-family: Helvetica;
+}
+
+.shopkids{
+    height: 39px;
+    width: 120px;
+    top: 612px;
+    left: 48px;
+    border-radius: 30px;
+    padding:7px, 23px, 9px, 22px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+    background-color: rgba(17, 17, 17, 1);
+    position: relative;
+    font-family: Helvetica;
+}
+
+.container4{
+    width: 1428px;
+    margin-top: 60px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.flexbox3{
+    width: 1428px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.row6{
+    width: 33.333333%;
+    height: 465px;
+    padding-right: 6px;
+    max-width: 100%;
+}
+
+.row7{
+    width: 33.333333%;
+    height: 465px;
+    padding:0px 6px;
+    max-width: 100%;
+}
+
+.row8{
+    width: 33.333333%;
+    height: 465px;
+    padding-left:6px;
+    max-width: 100%;
+}
+
+@media (max-width:750px) {
+    .row6{
+        width: 100%;
+        padding-right: 0px;
+        margin: 5px 0px;
+    }
+
+    .row7{
+        width: 100%;
+        padding: 0px 0px;
+        margin: 5px 0px;
+    }
+
+    .row8{
+        width: 100%;
+        padding-left:0px;
+        margin: 5px 0px;
+    }
+    
+} 
+
+.card7{
+    height: 465px;
+    background-image: url(https://static.zara.net/photos///2024/V/0/2/p/5039/401/250/2/w/364/5039401250_2_2_1.jpg?ts=1701268585038);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
+
+.card8{
+    height: 465px;
+    background-image: url(https://static.zara.net/photos///2024/V/0/1/p/2133/100/250/3/w/600/2133100250_2_5_1.jpg?ts=1701356816184);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
+
+.card9{
+    height: 465px;
+    background-image: url(https://static.zara.net/photos///2023/I/0/3/p/7878/618/807/402/w/607/7878618807_15_1_1.jpg?ts=1692600497845);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
+
+.mens{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(17, 17, 17, 1);
+    border: 0;
+    width: 85px;
+    height: 39px;
+    border-radius: 30px;
+    position: relative;
+    left: 48px;
+    top: 384px;
+    padding: 7px, 21px, 9px, 22px;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.womens{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(17, 17, 17, 1);
+    border: 0;
+    width: 108px;
+    height: 39px;
+    border-radius: 30px;
+    position: relative;
+    left: 48px;
+    top: 384px;
+    padding: 7px, 22px, 9px, 22px;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.kids{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(17, 17, 17, 1);
+    border: 0;
+    width: 77px;
+    height: 39px;
+    border-radius: 30px;
+    position: relative;
+    left: 48px;
+    top: 384px;
+    padding: 7px, 23px, 9px, 22px;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.container5{
+    width:100%;
+    max-width: 100%;
+    /* height: 192px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox4{
+    width:880px;
+    /* height: 192px; */
+    max-width: 100%;
+    flex-wrap:wrap;
+    display: flex;
+}
+
+.row9{
+    width:25%;
+    max-width: 100%;
+    /* height: 192px; */
+    display:flex;
+    flex-direction: column;
+}
+
+@media (max-width:672px) {
+    .row9{
+        width: 50%;
+    }
+    
+}
+
+@media (max-width:672px) {
+    .row10{
+        width: 100%;
+    }
+    
+}
+
+.inone{
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: rgba(17, 17, 17, 1);
+    margin: 18px 0px;
+}
+
+.inone:hover{
+    color: rgba(17, 17, 17, 1);
+    text-decoration: underline;
+}
+
+.grp{
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: rgba(117, 117, 117, 1);
+    margin: 6px 0px;
+}
+
+.grp:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+footer{
+    background-color:rgba(17, 17, 17, 1) ;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 72px;
+    height: 400px;
+    display: flex;
+}
+
+.container6{
+    width: 1444px; 
+    max-width: 100%;
+    margin: auto;
+}
+
+.infobox{
+    width: 1035px; 
+    width: 100%;
+    background-color:rgba(17, 17, 17, 1) ;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    position: relative;
+    top: 40px;
+}
+
+.row10{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+
+.whites{
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    margin: 8px 0px;
+    
+}
+
+.whites:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+.helps{
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: none;
+    color: rgba(117, 117, 117, 1);
+    margin: 3px 0px;
+}
+
+.helps:hover{
+    color: rgb(255, 255, 255);
+}
+
+#homepage{
+    text-decoration: underline;
+}
+
+
+
+
+
+
